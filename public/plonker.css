@@ -10,7 +10,9 @@ header {
 }
 
 header h1 {
-  margin: 0;
+  margin: 0 auto;
+  padding: 12px;
+  max-width: 960px;
 }
 
 header nav {
@@ -20,12 +22,26 @@ header nav {
 header nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0;
 }
 
 header nav a {
   color: #fff;
   text-decoration: none;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  display: block;
+  padding: 0 0.5em;
+}
+
+header nav li:first-child a {
+  padding-left: 0;
+}
+
+header nav li:last-child a {
+  padding-right: 0;
 }
 
 main {
@@ -49,17 +65,41 @@ main aside {
   width: 300px;
 }
 
+main aside h2 {
+  margin-top: 0;
+}
+
 main article h1 {
   font-size: 2rem;
   line-height: 1.125;
   margin: 6px 0 18px
 }
 
-main article img {
+main article .meta {
+  font-size: 80%;
+  margin: 6px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #949494;
+}
+
+main article .img {
+  display: flex;
+  flex-direction: column;
+}
+
+main article .img img {
   width: 100%
 }
 
-.teaser {
+main article .img p {
+  margin-top: 0;
+  font-size: 80%;
+  background-color: #4c4c4c;
+  color: white;
+  padding: 6px 3px;
+}
+
+main article .teaser {
   font-weight: bold;
 }
 
@@ -67,4 +107,16 @@ footer {
   background-color: #4c4c4c;
   border-top: 1px solid #949494;
   color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    flex-direction: column;
+  }
+
+  main aside {
+    width: auto;
+    border-top: 1px solid #949494;
+    padding-top: 24px;
+  }
 }
