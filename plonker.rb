@@ -24,16 +24,19 @@ end
 # Returns the primary domain name based upon the HTTP Host: header (e.g. "isaplonker.uk"),
 # assuming that the domain is registered in the DOMAINS constant
 def domain
-  return @domain if defined? @domain
-  @domain = DOMAINS.keys.select{|d| host =~ /#{d}$/}.first
+  DOMAINS.keys.select{|d| host =~ /#{d}$/}.first
+end
+
+# Returns the part of the domain name that appears before the primary domain
+def predomain
+  host.gsub(/\.*#{domain}$/, '')
 end
 
 # Returns the name of the victim (derived from the Host: header), if available
 # (nil otherwise)
 def name
-  return @name if defined? @name
   # Extract name 'parts'
-  name_parts = host.gsub(/\.*#{domain}$/, '').split(/\.+/).map(&:capitalize)
+  name_parts = predomain.gsub(/[^\.\-a-z0-9]/, '').split(/\.+/).map(&:capitalize)
   # Handle Irish-style (O'Something) names
   while (index_of_o = name_parts.find_index('O')) && (index_of_o < (name_parts.length - 1))
     name_parts[index_of_o + 1] = "O'#{name_parts[index_of_o + 1]}"
@@ -52,7 +55,7 @@ def name
   # TODO: consider other complicated name rules, such as prepositional parts (von, de, de la)
   #       which should not be capitalised?
   # Return the name parts
-  @name = name_parts
+  name_parts
 end
 
 # Returns the gender of the victim (derived from the path, if available: otherwise
@@ -60,8 +63,7 @@ end
 # (he, him, his, his), 1 for female pronouns (she, her, her, hers), 2 for gender-neutral
 # pronouns or where the pronoun can't be guessed (they, them, their, theirs).
 def gender
-  return @gender if defined? @gender
-  @gender = 2 # TODO: actually determine
+  2 # TODO: actually determine
 end
 
 # Returns a full set of pronouns and convenience words, based upon the victim's gender
@@ -75,7 +77,7 @@ end
 
 # Default URL handler
 get '/' do
-  @domain, @name, @pronouns = domain, name, pronouns
+  @domain, @predomain, @name, @pronouns = domain, predomain, name, pronouns
   if @name.length > 0
     erb DOMAINS[@domain]
   else

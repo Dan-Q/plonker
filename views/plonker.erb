@@ -1,1 +1,77 @@
-<%= @name.join(' ') %> is a plonker
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= @name.join(' ') %> is a Plonker</title>
+    <link rel="stylesheet" href="plonker.css" />
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <h1>Plonkerwatch News</h1>
+      </hgroup>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">UK</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1><%= @name.join(' ') %> is a Plonker</h1>
+        <div class="meta">
+          TODO: story metadata, trending, share link
+        </div>
+        <img src="/images/is-a-plonker.jpg" alt="Graffiti about <%= @name.join(' ') %>" />
+        <p class="teaser">
+          <%= @name.join(' ') %> is a plonker of the highest order, scientists have confirmed,
+          after observing <%= @pronouns[:him_her_them] %> repeatedly asking for price checks
+          at a well known &#8220;pound shop&#8221;.
+        </p>
+        <p>
+          Scientists first became aware that <%= @name.last %>&#8217;s elevator might not go all the
+          way to the top floor when <%= @pronouns[:his_her_their] %> friend, who has chosen to
+          remain anonymous, revealed that <%= @name.last %> once jumped into a pond in order
+          to save <%= @pronouns[:his_her_their] %> own reflection.
+        </p>
+        <p>
+          &#8220;<%= @pronouns[:he_she_they].capitalize %> was just looking over the edge of the bridge
+          and saw <%= @pronouns[:his_her_their] %> reflection&hellip; and the next moment they
+          was splashing around like the world&#8217;s stupidest duckling,&#8221; the friend
+          reported.
+        </p>
+        <p>
+          It didn't take too much longer for researchers to believe that <%= @name.last %> might
+          well be the world's stupidest person. Speaking on behalf of the research team, Dr. Alison
+          Butt, said: &#8220;<%= @name.first %> is about as sharp as a beach ball. When
+          <%= @pronouns[:he_she_they] %> first returned my call,
+          <%= @pronouns[:he_she_they] %> started by asking for my phone number. Later,
+          in the lab, we were able to distract <%= @pronouns[:him_her_them] %> for some hours
+          with a piece of paper on which we'd written 'please turn over' on both sides. We're
+          talking a real plonker, here.&#8221;
+        </p>
+        <p>
+          
+        </p>
+      </article>
+      <aside>
+        <div>
+          <h2>Elsewhere on the web:</h2>
+          <ol>
+            <% DOMAINS.each do |domain, code| %>
+              <li>
+                <a href="http://<%= @predomain %>.<%= domain %>/">TODO</a>
+              </li>
+            <% end %>
+          </ol>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      Footer
+    </footer>
+  </body>
+</html>
