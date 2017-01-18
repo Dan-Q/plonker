@@ -8,12 +8,10 @@ require 'bundler/setup'
 
 Bundler.require
 
-configure do
-end
-
 # Define a list of domains that we respond to:
 DOMAINS = {
-  'isaplonker.uk' => { code: :plonker, teaser: '{{fullname}} is a plonker', agency: 'Plonkerwatch News' }
+  'isaplonker.uk' => { code: :plonker, teaser: '{{fullname}} is a Plonker', agency: 'Plonkerwatch News', feature: "Need somebody to know they're a plonker?" },
+  'isatosser.uk' => { code: :tosser, teaser: "World's Greatest Tosser: {{fullname}}", agency: 'Tosser Times', feature: "Want somebody to know what a tosser they are?" }
 }
 
 # Load a list of gendered names
@@ -92,7 +90,7 @@ end
 get '/' do
   @domain, @predomain, @name, @pronouns = domain, predomain, name, pronouns
   if @name.length > 0
-    erb DOMAINS[@domain][:code]
+    erb :content, layout: DOMAINS[@domain][:code]
   else
     erb :setup
   end

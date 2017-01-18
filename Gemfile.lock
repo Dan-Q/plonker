@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.8)
+    base62 (1.0.0)
     multi_json (1.12.1)
     rack (1.6.5)
     rack-protection (1.5.3)
@@ -27,6 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base62 (~> 1.0.0)
   sinatra (~> 1.4.7)
   sinatra-reloader (~> 1.0.0)
 

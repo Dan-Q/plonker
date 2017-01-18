@@ -4,6 +4,15 @@ body {
   font-size: 16px;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1167a8;
+}
+
 header {
   background-color: #bb1919;
   color: #fff;
@@ -17,6 +26,7 @@ header h1 {
 
 header nav {
   background-color: #a91717;
+  padding: 0 12px;
 }
 
 header nav ul {
@@ -24,16 +34,20 @@ header nav ul {
   list-style: none;
   margin: 0 auto;
   max-width: 960px;
+  overflow: hidden;
   padding: 0;
 }
 
 header nav a {
   color: #fff;
-  text-decoration: none;
   height: 2.4rem;
   line-height: 2.4rem;
   display: block;
   padding: 0 0.5em;
+}
+
+header nav a:hover {
+  color: #fff;
 }
 
 header nav li:first-child a {
@@ -69,6 +83,44 @@ main aside h2 {
   margin-top: 0;
 }
 
+.elsewhere-on-the-web ol {
+  padding-left: 0;
+}
+
+.elsewhere-on-the-web li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.elsewhere-on-the-web li .number {
+  display: block;
+  width: 46px;
+  height: 46px;
+  background-color: #a91717;
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: bold;
+  text-align: center;
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+.elsewhere-on-the-web li .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.elsewhere-on-the-web li .content a {
+  font-weight: bold;
+}
+
+.elsewhere-on-the-web li .content .agency {
+  font-size: 80%;
+  color: #4c4c4c;
+}
+
 main article h1 {
   font-size: 2rem;
   line-height: 1.125;
@@ -80,6 +132,8 @@ main article .meta {
   margin: 6px 0 12px;
   padding-bottom: 6px;
   border-bottom: 1px solid #949494;
+  display: flex;
+  justify-content: space-between;
 }
 
 main article .img {
@@ -107,6 +161,27 @@ footer {
   background-color: #4c4c4c;
   border-top: 1px solid #949494;
   color: #fff;
+  padding: 0 12px;
+  font-size: 80%;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer section aside {
+  margin: 12px;
+}
+
+footer section aside:first-child {
+  margin-left: 0;
+}
+
+footer section aside:last-child {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 640px) {
