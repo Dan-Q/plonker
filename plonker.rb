@@ -77,8 +77,8 @@ end
 get '/' do
   @domain, @name, @pronouns = domain, name, pronouns
   if @name.length > 0
-    haml DOMAINS[@domain]
+    erb DOMAINS[@domain]
   else
-    haml :setup
+    erb :setup
   end
 end
