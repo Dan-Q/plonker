@@ -52,16 +52,28 @@
     <footer>
       <section>
         <aside>
-          Footer
+          <ul>
+            <li><a href="/faq#why-my-name">Why is my name on this website?</a></li>
+            <li><a href="/faq#who-picked-on-me">Who put my name on this website?</a></li>
+            <li><a href="/faq#take-my-name-off">Take my name off this website!</a></li>
+            <li><a href="/faq">&hellip; and other questions &hellip;</a></li>
+          </ul>
         </aside>
         <aside>
-          Footer section number 2
+          <ul>
+            <li><a href="http://<%= domain %>/">News about my friends</a></li>
+          </ul>
         </aside>
         <aside>
-          Footer
-        </aside>
-        <aside>
-          Footer
+          <ul>
+            <li>
+              &copy; <a href="https://danq.me/">Dan Q</a> 2017
+              <%= (year = Time.now.year) > 2017 ? " &ndash; #{year}" : '' %>
+            </li>
+            <li>
+              <a href="https://github.com/Dan-Q/plonker">Open source</a> under the <a href="https://github.com/Dan-Q/plonker/blob/master/LICENSE">MIT license</a>
+            </li>
+          </ul>
         </aside>
       </section>
     </footer>

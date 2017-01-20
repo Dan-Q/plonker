@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= DOMAINS[@domain][:teaser].gsub('{{fullname}}', 'Somebody') %></title>
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <h1>The Plonker Project</h1>
+      </hgroup>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
+  </body>
+</html>

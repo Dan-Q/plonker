@@ -33,6 +33,7 @@ end
 
 # Returns the part of the domain name that appears before the primary domain
 def predomain
+  # TODO: do not return leading www., if present
   host.gsub(/\.*#{domain}$/, '')
 end
 
@@ -92,6 +93,11 @@ get '/' do
   if @name.length > 0
     erb :content, layout: DOMAINS[@domain][:code]
   else
-    erb :setup
+    erb :setup, layout: :layout
   end
+end
+
+get '/faq' do
+  @domain, @predomain = domain, predomain
+  erb :faq, layout: :layout
 end

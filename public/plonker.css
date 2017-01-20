@@ -174,6 +174,8 @@ footer section {
 
 footer section aside {
   margin: 12px;
+  width: 33%;
+  text-align: center;
 }
 
 footer section aside:first-child {
@@ -182,6 +184,25 @@ footer section aside:first-child {
 
 footer section aside:last-child {
   margin-right: 0;
+}
+
+footer section aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer section aside ul li {
+    line-height: 1.8;
+}
+
+footer section aside a,
+footer section aside a:hover {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
+footer section aside a:hover {
+  border-bottom-style: solid;
 }
 
 @media screen and (max-width: 640px) {

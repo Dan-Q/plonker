@@ -1,0 +1,171 @@
+<div id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="question-index">
+    <ol>
+      <li><a href="#why-my-name">Why is my name on this website?</a></li>
+      <li><a href="#who-picked-on-me">But who <em>put</em> my name on it?</a></li>
+      <li><a href="#take-my-name-off">Take my name off this website!</a></li>
+      <li><a href="#pointless-legal-threat">I'll sue you for defamation/slander/libel!</a></li>
+      <li><a href="#why-search-results">Why is this site showing up in search results for my name?</a></li>
+      <li><a href="#dan-q">Who made this site?</a></li>
+      <li><a href="#why-does-this-exist">Why does this site exist?</a></li>
+      <li><a href="#what-does-it-mean">What is a "plonker" etc.?</a></li>
+      <li><a href="#how-does-this-work">How does this site work?</a></li>
+      <li><a href="#suggest-a-feature">Can I suggest a new news story/slang term?</a></li>
+      <li><a href="#contact">I have a question not on the list...</a></li>
+    </ol>
+  </div>
+
+  <div class="question">
+    <h3 id="why-my-name">Why is my name on this website?</h3>
+    <p>
+      Because you visited
+      <% if @predomain == '' %>
+        it!
+      <% else %>
+        <a href="http://<%= @predomain %>.<%= @domain %>/"><%= @predomain %>.<%= @domain %></a>!
+      <% end %>
+    </p>
+    <p>
+      This website is generated automatically based on the name you put at the start of the web address.
+      You can change the name in the address bar and see the same site but about somebody different.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="who-picked-on-me">But who <em>put</em> my name on it?</h3>
+    <p>
+      Well&hellip; technically, <em>you</em> did. But if you got here by following a link on social media,
+      in an email, or by typing a web address you found on a Post-It Note, then you can thank the person
+      who wrote <em>that</em> for giving you the idea! From the sounds of things, somebody wanted to
+      let you know what they thought of you, and sent you to this website to give you a clue.
+    </p>
+
+    <p>
+      We don't know who that person is. We didn't ask.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="take-my-name-off">Take my name off this website!</h3>
+    <p>
+      That's not a question. Also: that's not how this works. Scroll up and read the questions above this
+      one, and then come back. If you're still stupid enough to want to ask to have your name taken off
+      this website then that just proves why your name <em>should</em> be on this website, doesn't it.
+    </p>
+    <p>
+      But seriously: if you want your name to no longer appear on this website, <em>just close your web browser</em>.
+      Your name will disappear immediately. Of course, if you come back
+      <% if @predomain != '' %>
+        to <a href="http://<%= @predomain %>.<%= @domain %>/"><%= @predomain %>.<%= @domain %></a>
+      <% end %>
+      then it'll reappear again. That's just how it works. The page simply doesn't exist except when
+      somebody asks for it to by requesting it.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="pointless-legal-threat">I'll sue you for defamation/slander/libel!</h3>
+    <p>
+      That's still not a question.
+    </p>
+    <p>
+      Also: I'm revoking your Internet license; you're clearly too much of an idiot to be allowed to
+      use a computer.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="why-search-results">Why is this site showing up in search results for my name?</h3>
+    <p>
+      This is a side-effect of the way in which most search engines index content. Somewhere, someone
+      has made a web page that links to this site, and that link contains your name (or the link is
+      otherwise on a web page that the search engine associates with your name). The search engine
+      has therefore assumed that this page contains legitimate information about you (or somebody
+      else who shares your name).
+    </p>
+    <p>
+      The same thing would happen, by the way, if a sufficiency of websites contained links to,
+      for example, the <a href="https://en.wikipedia.org/wiki/Idiot">Wikipedia article entitled
+      "Idiot"</a> where the text of those links contained or were near to your name, except that
+      people searching for your name would find that the top link was the definition of "idiot".
+      Where this is done deliberately, it's known as a
+      <a href="https://en.wikipedia.org/wiki/Google_bomb">Google bomb</a>.
+    </p>
+    <p>
+      In that case, as in this one, the reason that the link appears in search results is a combination
+      of the way in which search engines index content and the frequency with which and the relevance
+      rating of <em>other websites</em> that link to this one while using your name. If you want to
+      affect those search results, the most-effective way is to have those links removed from
+      those other websites: at this point, organic search results - assuming that there is any
+      such content associated with your name - will begin to beat this site in listings.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="dan-q">Who made this site?</h3>
+    <p>
+      This site was made by <a href="https://danq.me/">Dan Q</a>, a web geek from Oxford, UK.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="why-does-this-exist">Why does this site exist?</h3>
+    <p>
+      Ever since <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.23">HTTP/1.1 made the Host header mandatory</a>,
+      it's been possible for a web server to know exactly what web address was entered when a compliant
+      web browser connects to it. By the early 2000s, HTTP/1.1 had come to be ubiquitous, and servers
+      started making significant use of this new feature. Its primary purpose was to allow a web
+      server to host many websites, differentiated by name, at a single IP address, but it didn't
+      take long for people to combine the Host header with "wildcard DNS", which was well-established
+      even before <a href="https://tools.ietf.org/html/rfc4592">its formal standardisation</a> in
+      2006 in order to allow a web server to host not only a site but also separate sites at each of the
+      subdomains of a domain name.
+    </p>
+    <p>
+      A handful of frivilous sites popped up to capitalise on this. Most of these have since fallen
+      by the wayside, and those that remain are often either rather homophobic or pretty US-centric.
+      I thought that it was time for a new generation of these sites powered by open source software
+      and using British slang.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="what-does-it-mean">What is a "plonker" etc.?</h3>
+    <p>
+      If you're having difficulty with the language, you might try
+      <a href="http://www.britishslang.co.uk/">britishslang.co.uk</a>, you spanner.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="how-does-this-work">How does this site work?</h3>
+    <p>
+      When you visit this site, your web browser tells my web server what domain name is in the address
+      bar. This is deciphered to find your name, and a news page is given to you with your name
+      inserted strategically into it.
+    </p>
+    <p>
+      That's the essence of it. If you're interested in the specifics,
+      <a href="https://github.com/Dan-Q/plonker">the source code</a> is free for anybody to download.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="suggest-a-feature">Can I suggest a new news story/slang term?</h3>
+    <p>
+      You can, but it's more-likely to happen if you write the code yourself and send me a pull request.
+    </p>
+  </div>
+
+  <div class="question">
+    <h3 id="contact">I have a question not on the list...</h3>
+    <p>
+      <a href="https://dan.q/contact">Get in touch with the owner of the site</a>. Any questions
+      already covered by the FAQ probably won't even get the courtesy of a response. Other questions
+      <em>might</em>, but no promises.
+    </p>
+  </div>
+
+</div>
