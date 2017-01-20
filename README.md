@@ -1,9 +1,11 @@
 # Plonker
 
-An experimental project in wildcard domain name hackery and exceptionally-British name-calling.
+Exceptionally-British web application generating fake news stories about plonkers of any kind, powered by Sinatra (Ruby).
 
-More to follow.
+See it in action at:
+
+* URLs to follow
 
 ## License
 
-© Copyright Dan Q 2017. Released under the MIT license (you may do anything they want with this code as long as you provide attribution back to me and don't hold me liable).
+© Copyright [Dan Q](https://danq.me/) 2017. Released under the MIT license (you may do anything they want with this code as long as you provide attribution back to me and don't hold me liable).
