@@ -1,13 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Plonker Setup</title>
-    <link rel="stylesheet" href="setup.css" />
-    <script type="application/javascript" src="/jquery-3.1.1.min.js"></script>
-    <script type="application/javascript" src="/setup.js"></script>
-  </head>
-  <body>
-    <h1><%= DOMAINS[@domain][:feature] %></h1>
-  </body>
-</html>
+<div id="setup" class="requires-js">
+  <h2><%= DOMAINS[@domain][:feature] %></h2>
+
+  <p>
+    Enter their name below and get a unique web address to view or share:
+  </p>
+
+  <div class="field">
+    <label for="name">Their name</label>
+    <input id="name" placeholder="Enter your victim's name" />
+  </div>
+
+  <a class="button" href="#" id="advanced-button">Advanced options&hellip;</a>
+
+  <div id="advanced-section">
+  </div>
+
+  <a id="result" target="_blank"></a>
+</div>
+
+<div class="requires-no-js">
+  <p>
+    Javascript is required to use this tool.
+  </p>
+</div>
+
+<script type="application/javascript" src="/jquery-3.1.1.min.js"></script>
+<script type="application/javascript" src="/setup.js"></script>
