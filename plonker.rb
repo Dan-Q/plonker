@@ -20,6 +20,13 @@ GENDERED_NAMES = {
   1 => File.read('lib/names/female.txt').split(/[\r\n]+/).reject{|n|n.strip == ''}
 }
 
+# Set up decoder dictionaries
+DICTIONARIES = [
+  ['dodgy','daft','naff','sad','shite','skiving','cheeky','nosey','dozy','whinging','stinky','rubbish','barmy','duff','grubby','dim'],
+  ['ugly','gormless','bloody','chavvy','shitting','godforsaken','effing','poor','stupid','skanky','fucking','pikey','plastered','nesh','wimpy','buggered'],
+  ['muppet','git','moron','pillock','twit','knob','wazzock','berk','ninny','blighter','sod','bellend','wanker','arsehole','divvy','nutter'],
+]
+
 # Returns the Host: header from the original request, e.g. "some.body.isaplonker.uk"
 def host
   request.env['HTTP_HOST']
@@ -79,17 +86,24 @@ def gender
 end
 
 # Returns a full set of pronouns and convenience words, based upon the victim's gender
-def pronouns
+# Optionally specify a pronoun set (0 = he, 1 = she, 2 = they) to override auto-detection
+def pronouns(override_gender = nil)
   [
     {he_she_they: 'he',   him_her_them: 'him',  his_her_their: 'his',   his_hers_theirs: 'his',    man_woman_person: 'man',    boy_girl_child: 'boy',   hes_shes_theyre: "he&#8217;s"},
     {he_she_they: 'she',  him_her_them: 'her',  his_her_their: 'her',   his_hers_theirs: 'hers',   man_woman_person: 'woman',  boy_girl_child: 'girl',  hes_shes_theyre: "shee&#8217;s"},
     {he_she_they: 'they', him_her_them: 'them', his_her_their: 'their', his_hers_theirs: 'theirs', man_woman_person: 'person', boy_girl_child: 'child', hes_shes_theyre: "they&#8217;re"}
-  ][gender]
+  ][override_gender || gender]
 end
 
 # Default URL handler
-get '/' do
-  @domain, @predomain, @name, @pronouns = domain, predomain, name, pronouns
+get '/*' do
+  @domain, @predomain, @name, @pronouns, @locality = domain, predomain, name, pronouns, nil
+  if params['splat'][0] =~ /^([^-]+)-([^-]+)-([^-]+)$/
+    # params passed - decode them
+    pro, loc = [$1, $2, $3].map{|e| (DICTIONARIES.flatten.index(e) % 16).to_s(2).rjust(4, '0') }.join.scan(/^(.{2})(.{10})$/).flatten.map{|b| b.to_i(2) }
+    @pronouns = pronouns(pro - 1) if pro > 0
+    @locality = File.read('lib/locations.txt').split("\n").map{|r|r.split('|')}.find{|r| r[2] == loc.to_s}[1]
+  end
   if @name.length > 0
     erb :content, layout: DOMAINS[@domain][:code]
   else

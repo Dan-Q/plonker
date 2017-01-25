@@ -7,12 +7,31 @@
 
   <div class="field">
     <label for="name">Their name</label>
-    <input id="name" placeholder="Enter your victim's name" />
+    <input id="name" placeholder="Your victim's name" />
   </div>
 
   <a class="button" href="#" id="advanced-button">Advanced options&hellip;</a>
 
   <div id="advanced-section">
+    <div class="field">
+      <label for="pronoun">Their pronoun</label>
+      <select id="pronoun">
+        <option value="0">Guess (default)</option>
+        <option value="1">He/him</option>
+        <option value="2">She/her</option>
+        <option value="3">They/them</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="locality">Their locality</label>
+      <select id="locality">
+        <% File.read('lib/locations.txt').split("\n").map{|r|r.split('|')}.each do |r| %>
+          <option value="<%= r[2] %>"><%= r[1] %></option>
+        <% end %>
+      </select>
+      <small>Optionally select the British city or county, or the country in which the victim resides to further personalise the page.</small>
+    </div>
   </div>
 
   <a id="result" target="_blank"></a>
