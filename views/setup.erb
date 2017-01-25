@@ -14,6 +14,15 @@
 
   <div id="advanced-section">
     <div class="field">
+      <label for="domain">Site</label>
+      <select id="domain">
+        <% DOMAINS.each do |k, v| %>
+          <option value="<%= k %>" <%= 'selected="selected"' if k == @domain %>><%= k %></option>
+        <% end %>
+      </select>
+    </div>
+
+    <div class="field">
       <label for="pronoun">Their pronoun</label>
       <select id="pronoun">
         <option value="0">Guess (default)</option>

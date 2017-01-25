@@ -20,7 +20,7 @@
     let name = $('#name').val().toLowerCase().replace(/['\. ]+/, '.').replace(/[^a-z0-9\-\.]+/, '').replace(/^\.+/, '').replace(/\.+$/, '');
     let pronoun = parseInt($('#pronoun').val());
     let loc = parseInt($('#locality').val());
-    let domain = 'isaplonker.uk';
+    let domain = $('#domain').val();
     let address = (name.length > 0 ? `${name}.${domain}` : '');
     if(name.length > 0 && (pronoun != 0 || loc != 268) && $('#setup').hasClass('advanced')){
       // encode the pronoun (2 bits) and locality (10 bits) as three 4-bit (i.e. Base16) numbers, represented by 16 strings
