@@ -27,7 +27,7 @@
       <label for="locality">Their locality</label>
       <select id="locality">
         <% File.read('lib/locations.txt').split("\n").map{|r|r.split('|')}.each do |r| %>
-          <option value="<%= r[2] %>"><%= r[1] %></option>
+          <option value="<%= r[2] %>"><%= r[0] %></option>
         <% end %>
       </select>
       <small>Optionally select the British city or county, or the country in which the victim resides to further personalise the page.</small>

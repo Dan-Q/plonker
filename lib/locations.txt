@@ -1,29 +1,13 @@
 ||268
 Aberdeenshire|Aberdeenshire|1
 Aberdeen|Aberdeen|0
-Afghanistan|Afghanistan|269
-Albania|Albania|270
-Algeria|Algeria|271
 Amber Valley|Amber Valley|2
-Andorra|Andorra|272
-Angola|Angola|273
 Angus|Angus|3
-Antigua and Barbuda|Antigua and Barbuda|274
-Argentina|Argentina|275
 Armagh|Armagh|4
-Armenia|Armenia|276
-Aruba|Aruba|277
 Arun|Arun|5
 Ashfield|Ashfield|6
-Australia|Australia|278
-Austria|Austria|279
 Aylesbury Vale|Aylesbury Vale|7
-Azerbaijan|Azerbaijan|280
-Bahamas|The Bahamas|281
-Bahrain|Bahrain|282
-Bangladesh|Bangladesh|283
 Bangor|Bangor|8
-Barbados|Barbados|284
 Barnsley|Barnsley|9
 Basildon|Basildon|10
 Basingstoke &amp; Deane|Basingstoke &amp; Deane|11
@@ -32,26 +16,16 @@ Bath &amp; North East Somerset|Bath &amp; North East Somerset|13
 Bath|Bath|14
 Bedfordshire|Bedfordshire|16
 Bedford|Bedford|15
-Belarus|Belarus|285
 Belfast|Belfast|17
-Belgium|Belgium|286
-Belize|Belize|287
-Benin|Benin|288
 Berkshire|Berkshire|18
-Bermuda|Bermuda|289
-Bhutan|Bhutan|290
 Birmingham|Birmingham|19
 Blackburn|Blackburn|20
 Blackpool|Blackpool|21
-Bolivia|Bolivia|291
 Bolton|Bolton|22
-Bosnia and Herzegovina|Bosnia and Herzegovina|292
-Botswana|Botswana|293
 Bournemouth|Bournemouth|23
 Bracknell Forest|Bracknell Forest|24
 Bradford|Bradford|25
 Braintree|Braintree|26
-Brazil|Brazil|294
 Breckland|Breckland|27
 Bridgend|Bridgend|28
 Brighton &amp; Hove|Brighton &amp; Hove|29
@@ -59,26 +33,16 @@ Brighton|Brighton|30
 Bristol|Bristol|31
 Broadland|Broadland|32
 Broxtowe|Broxtowe|33
-Brunei|Brunei|295
 Buckinghamshire|Buckinghamshire|34
-Bulgaria|Bulgaria|296
-Burkina Faso|Burkina Faso|297
-Burundi|Burundi|298
 Bury|Bury|35
 Caerphilly|Caerphilly|36
 Calderdale|Calderdale|37
-Cambodia|Cambodia|299
 Cambridgeshire|Cambridgeshire|39
 Cambridge|Cambridge|38
-Cameroon|Cameroon|300
-Canada|Canada|301
 Canterbury|Canterbury|40
-Cape Verde|Cape Verde|302
 Cardiff|Cardiff|41
 Carlisle|Carlisle|42
 Carmarthenshire|Carmarthenshire|43
-Central African Republic|the Central African Republic|303
-Chad|Chad|304
 Charnwood|Charnwood|44
 Chelmsford|Chelmsford|45
 Cheltenham|Cheltenham|46
@@ -86,33 +50,19 @@ Cherwell|Cherwell|47
 Cheshire|Cheshire|48
 Chester|Chester|49
 Chichester|Chichester|50
-Chile|Chile|305
-China|China|306
 City of London|the City of London|51
-City of Westminster|City of Westminster|52
+City of Westminster|the City of Westminster|52
 Colchester|Colchester|53
-Colombia|Colombia|307
-Comoros|Comoros|308
 Conway|Conway|54
 Cornwall|Cornwall|55
-Costa Rica|Costa Rica|309
 Coventry|Coventry|56
 Crewe &amp; Nantwich|Crewe &amp; Nantwich|57
-Croatia|Croatia|310
-Cuba|Cuba|311
 Cumbria|Cumbria|58
-Czech Republic|Czech Republic|312
-Côte d'Ivoire|Côte d'Ivoire|313
 Dacorum|Dacorum|59
-Democratic Republic of the Congo|the Democratic Republic of the Congo|314
-Denmark|Denmark|315
 Derbyshire|Derbyshire|61
 Derby|Derby|60
 Derry|Derry|62
 Devon|Devon|63
-Djibouti|Djibouti|316
-Dominican Republic|the Dominican Republic|317
-Dominica|Dominica|318
 Doncaster|Doncaster|64
 Dorset|Dorset|65
 Dover|Dover|66
@@ -128,51 +78,26 @@ East Hertfordshire|East Hertfordshire|75
 East Lindsey|East Lindsey|76
 East Riding|East Riding|77
 East Sussex|East Sussex|78
-East Timor|East Timor|319
 Eastleigh|Eastleigh|79
-Ecuador|Ecuador|320
 Edinburgh|Edinburgh|80
-Egypt|Egypt|321
-El Salvador|El Salvador|322
 Elmbridge|Elmbridge|81
 Ely|Ely|82
 Epping Forest|Epping Forest|83
-Equatorial Guinea|Equatorial Guinea|323
 Erewash|Erewash|84
-Eritrea|Eritrea|324
 Essex|Essex|85
-Estonia|Estonia|325
-Ethiopia|Ethiopia|326
 Exeter|Exeter|86
 Falkirk|Falkirk|87
-Faroe Islands|the Faroe Islands|327
-Federated States of Micronesia|the Federated States of Micronesia|328
 Fife|Fife|88
-Fiji|Fiji|329
-Finland|Finland|330
 Flintshire|Flintshire|89
-France|France|331
-Gabon|Gabon|332
-Gambia|The Gambia|333
 Gateshead|Gateshead|90
 Gedling|Gedling|91
-Georgia|Georgia|334
-Germany|Germany|335
-Ghana|Ghana|336
 Glasgow|Glasgow|92
 Gloucestershire|Gloucestershire|94
 Gloucester|Gloucester|93
 Greater London|Greater London|95
 Greater Manchester|Greater Manchester|96
-Greece|Greece|337
-Grenada|Grenada|338
-Guatemala|Guatemala|339
 Guildford|Guildford|97
-Guinea-Bissau|Guinea-Bissau|340
-Guinea|Guinea|341
-Guyana|Guyana|342
 Gwynedd|Gwynedd|98
-Haiti|Haiti|343
 Halton|Halton|99
 Hampshire|Hampshire|100
 Harrogate|Harrogate|101
@@ -181,101 +106,45 @@ Herefordshire|Herefordshire|104
 Hereford|Hereford|103
 Hertfordshire|Hertfordshire|105
 Highland|Highland|106
-Honduras|Honduras|344
 Horsham|Horsham|107
-Hungary|Hungary|345
 Huntingdonshire|Huntingdonshire|108
-Iceland|Iceland|346
-India|India|347
-Indonesia|Indonesia|348
 Inverness|Inverness|109
 Ipswich|Ipswich|110
-Iran|Iran|349
-Iraq|Iraq|350
-Ireland|Ireland|351
 Isle of Wight|the Isle of Wight|111
-Israel|Israel|352
-Italy|Italy|353
-Jamaica|Jamaica|354
-Japan|Japan|355
-Jordan|Jordan|356
-Kazakhstan|Kazakhstan|357
 Kent|Kent|112
-Kenya|Kenya|358
 Kings Lynn &amp; West Norfolk|Kings Lynn &amp; West Norfolk|113
 Kingston upon Hull|Kingston upon Hull|114
 Kingston-upon-Hull|Kingston-upon-Hull|115
-Kiribati|Kiribati|359
 Kirklees|Kirklees|116
 Knowsley|Knowsley|117
-Korea, North|North Korea|360
-Korea, South|South Korea|361
-Korea|Korea|362
-Kuwait|Kuwait|363
-Kyrgyzstan|Kyrgyzstan|364
 Lancashire|Lancashire|118
 Lancaster|Lancaster|119
-Laos|Laos|365
-Latvia|Latvia|366
-Lebanon|Lebanon|367
 Leeds|Leeds|120
 Leicestershire|Leicestershire|122
 Leicester|Leicester|121
-Lesotho|Lesotho|368
-Liberia|Liberia|369
-Libya|Libya|370
 Lichfield|Lichfield|123
-Liechtenstein|Liechtenstein|371
 Lincolnshire|Lincolnshire|125
 Lincoln|Lincoln|124
 Lisburn|Lisburn|126
-Lithuania|Lithuania|372
 Liverpool|Liverpool|127
 London|London|128
 Luton|Luton|129
-Luxembourg|Luxembourg|373
 Macclesfield|Macclesfield|130
-Madagascar|Madagascar|374
 Maidstone|Maidstone|131
-Malawi|Malawi|375
-Malaysia|Malaysia|376
-Maldives|Maldives|377
-Mali|Mali|378
-Malta|Malta|379
 Manchester|Manchester|132
-Marshall Islands|the Marshall Islands|380
-Mauritania|Mauritania|381
-Mauritius|Mauritius|382
 Merseyside|Merseyside|133
-Mexico|Mexico|383
 Mid Bedfordshire|Mid Bedfordshire|134
 Mid Sussex|Mid Sussex|135
 Middlesbrough|Middlesbrough|136
 Milton Keynes|Milton Keynes|137
-Moldova|Moldova|384
-Monaco|Monaco|385
-Mongolia|Mongolia|386
-Montenegro|Montenegro|387
-Morocco|Morocco|388
-Mozambique|Mozambique|389
-Myanmar|Myanmar|390
-Namibia|Namibia|391
-Nauru|Nauru|392
 Neath Port Talbot|Neath Port Talbot|138
-Nepal|Nepal|393
-Netherlands|the Netherlands|394
 New Forest|New Forest|139
-New Zealand (Aotearoa)|New Zealand (Aotearoa)|395
 Newbury|Newbury|140
 Newcastle upon Tyne|Newcastle upon Tyne|141
 Newcastle-under-Lyme|Newcastle-under-Lyme|142
 Newcastle-upon-Tyne|Newcastle-upon-Tyne|143
 Newport|Newport|144
 Newry|Newry|145
-Nicaragua|Nicaragua|396
-Nigeria|Nigeria|397
-Niger|Niger|398
-Niue|Niue|399
 Norfolk|Norfolk|146
 North Ayrshire|North Ayrshire|147
 North East Lincolnshire|North East Lincolnshire|148
@@ -288,81 +157,44 @@ North Wiltshire|North Wiltshire|154
 Northamptonshire|Northamptonshire|156
 Northampton|Northampton|155
 Northumberland|Northumberland|157
-Norway|Norway|400
 Norwich|Norwich|158
 Nottinghamshire|Nottinghamshire|160
 Nottingham|Nottingham|159
 Nuneaton &amp; Bedworth|Nuneaton &amp; Bedworth|161
 Oldham|Oldham|162
-Oman|Oman|401
 Oxfordshire|Oxfordshire|164
 Oxford|Oxford|163
-Pakistan|Pakistan|402
-Palau|Palau|403
-Palestine|Palestine|404
-Panama|Panama|405
-Papua New Guinea|Papua New Guinea|406
-Paraguay|Paraguay|407
 Pembrokeshire|Pembrokeshire|165
-People's Republic of China|the People's Republic of China|408
 Perth &amp; Kinross|Perth &amp; Kinross|166
 Perth|Perth|167
-Peru|Peru|409
 Peterborough|Peterborough|168
-Philippines|the Philippines|410
 Plymouth|Plymouth|169
-Poland|Poland|411
 Poole|Poole|170
 Portsmouth|Portsmouth|171
-Portugal|Portugal|412
 Powys|Powys|172
 Preston|Preston|173
-Puerto Rico|Puerto Rico|413
-Qatar|Qatar|414
 Reading|Reading|174
 Redcar &amp; Cleveland|Redcar &amp; Cleveland|175
 Reigate &amp; Banstead|Reigate &amp; Banstead|176
 Renfrewshire|Renfrewshire|177
-Republic of China|the Republic of China|415
-Republic of Cyprus|the Republic of Cyprus|416
-Republic of Macedonia|the Republic of Macedonia|417
-Republic of the Congo|the Republic of the Congo|418
 Rhondda, Cynon, Taff|Rhondda, Cynon, Taff|178
 Ripon|Ripon|179
 Rochdale|Rochdale|180
 Rochester-upon-Medway|Rochester-upon-Medway|181
-Romania|Romania|419
 Rotherham|Rotherham|182
-Russia|Russia|420
 Rutland|Rutland|183
-Rwanda|Rwanda|421
-Saint Kitts and Nevis|Saint Kitts and Nevis|422
-Saint Lucia|Saint Lucia|423
-Saint Vincent and the Grenadines|Saint Vincent and the Grenadines|424
 Salford|Salford|184
 Salisbury|Salisbury|185
-Samoa|Samoa|425
-San Marino|San Marino|426
 Sandwell|Sandwell|186
-Saudi Arabia|Saudi Arabia|427
 Scarborough|Scarborough|187
 Scottish Borders|Scottish Borders|188
 Sefton|Sefton|189
-Senegal|Senegal|428
-Serbia|Serbia|429
 Sevenoaks|Sevenoaks|190
-Seychelles|Seychelles|430
 Sheffield|Sheffield|191
 Shropshire|Shropshire|192
-Sierra Leone|Sierra Leone|431
-Singapore|Singapore|432
 Slough|Slough|193
-Slovenia|Slovenia|433
 Solihull|Solihull|194
-Solomon Islands|Solomon Islands|434
-Somalia|Somalia|435
 Somerset|Somerset|195
-South Africa|South Africa|436
 South Ayrshire|South Ayrshire|196
 South Bedfordshire|South Bedfordshire|197
 South Cambridgeshire|South Cambridgeshire|198
@@ -371,12 +203,9 @@ South Kesteven|South Kesteven|200
 South Lanarkshire|South Lanarkshire|201
 South Oxfordshire|South Oxfordshire|202
 South Somerset|South Somerset|203
-South Sudan|South Sudan|437
 South Tyneside|South Tyneside|204
 Southampton|Southampton|205
 Southend-on-Sea|Southend-on-Sea|206
-Spain|Spain|438
-Sri Lanka|Sri Lanka|439
 St Albans|St Albans|207
 St Asaph|St Asaph|208
 St David's|St David's|209
@@ -389,56 +218,27 @@ Stockton-on-Tees|Stockton-on-Tees|215
 Stoke-on-Trent|Stoke-on-Trent|216
 Stratford-on-Avon|Stratford-on-Avon|217
 Stroud|Stroud|218
-Sudan|Sudan|440
 Suffolk Coastal|Suffolk Coastal|219
 Suffolk|Suffolk|220
 Sunderland|Sunderland|221
-Suriname|Suriname|441
 Surrey|Surrey|222
 Swale|Swale|223
 Swansea|Swansea|224
-Swaziland|Swaziland|442
-Sweden|Sweden|443
-Switzerland|Switzerland|444
-Syria|Syria|445
-São Tomé and Príncipe|São Tomé and Príncipe|446
-Tajikistan|Tajikistan|447
 Tameside|Tameside|225
-Tanzania|Tanzania|448
 Teignbridge|Teignbridge|226
 Tendring|Tendring|227
 Test Valley|Test Valley|228
-Thailand|Thailand|449
 Thamesdown|Thamesdown|229
 Thanet|Thanet|230
 The Wrekin|The Wrekin|231
 Thurrock|Thurrock|232
-Tibet|Tibet|450
-Togo|Togo|451
-Tonga|Tonga|452
 Torbay|Torbay|233
 Trafford|Trafford|234
-Trinidad and Tobago|Trinidad and Tobago|453
 Truro|Truro|235
-Tunisia|Tunisia|454
-Turkey|Turkey|455
-Turkmenistan|Turkmenistan|456
-Tuvalu|Tuvalu|457
 Tyne and Wear|Tyne and Wear|236
-Uganda|Uganda|458
-Ukraine|Ukraine|459
-United Arab Emirates|United Arab Emirates|460
-United Kingdom|the United Kingdom|461
-United States|the United States|462
-Uruguay|Uruguay|463
-Uzbekistan|Uzbekistan|464
 Vale of Glamorgan|Vale of Glamorgan|237
 Vale of White Horse|Vale of White Horse|238
 Vale Royal|Vale Royal|239
-Vanuatu|Vanuatu|465
-Vatican City|Vatican City|466
-Venezuela|Venezuela|467
-Vietnam|Vietnam|468
 Wakefield|Wakefield|240
 Walsall|Walsall|241
 Warrington|Warrington|242
@@ -465,8 +265,212 @@ Worcester|Worcester|261
 Wrexham Maelor|Wrexham Maelor|263
 Wychavon|Wychavon|264
 Wycombe|Wycombe|265
-Yemen|Yemen|469
 Yorkshire|Yorkshire|267
 York|York|266
+----||268
+Afghanistan|Afghanistan|269
+Albania|Albania|270
+Algeria|Algeria|271
+Andorra|Andorra|272
+Angola|Angola|273
+Antigua and Barbuda|Antigua and Barbuda|274
+Argentina|Argentina|275
+Armenia|Armenia|276
+Aruba|Aruba|277
+Australia|Australia|278
+Austria|Austria|279
+Azerbaijan|Azerbaijan|280
+Bahamas|The Bahamas|281
+Bahrain|Bahrain|282
+Bangladesh|Bangladesh|283
+Barbados|Barbados|284
+Belarus|Belarus|285
+Belgium|Belgium|286
+Belize|Belize|287
+Benin|Benin|288
+Bermuda|Bermuda|289
+Bhutan|Bhutan|290
+Bolivia|Bolivia|291
+Bosnia and Herzegovina|Bosnia and Herzegovina|292
+Botswana|Botswana|293
+Brazil|Brazil|294
+Brunei|Brunei|295
+Bulgaria|Bulgaria|296
+Burkina Faso|Burkina Faso|297
+Burundi|Burundi|298
+Cambodia|Cambodia|299
+Cameroon|Cameroon|300
+Canada|Canada|301
+Cape Verde|Cape Verde|302
+Central African Republic|the Central African Republic|303
+Chad|Chad|304
+Chile|Chile|305
+China|China|306
+Colombia|Colombia|307
+Comoros|Comoros|308
+Costa Rica|Costa Rica|309
+Croatia|Croatia|310
+Cuba|Cuba|311
+Czech Republic|Czech Republic|312
+Côte d'Ivoire|Côte d'Ivoire|313
+Democratic Republic of the Congo|the Democratic Republic of the Congo|314
+Denmark|Denmark|315
+Djibouti|Djibouti|316
+Dominican Republic|the Dominican Republic|317
+Dominica|Dominica|318
+East Timor|East Timor|319
+Ecuador|Ecuador|320
+Egypt|Egypt|321
+El Salvador|El Salvador|322
+Equatorial Guinea|Equatorial Guinea|323
+Eritrea|Eritrea|324
+Estonia|Estonia|325
+Ethiopia|Ethiopia|326
+Faroe Islands|the Faroe Islands|327
+Federated States of Micronesia|the Federated States of Micronesia|328
+Fiji|Fiji|329
+Finland|Finland|330
+France|France|331
+Gabon|Gabon|332
+Gambia|The Gambia|333
+Georgia|Georgia|334
+Germany|Germany|335
+Ghana|Ghana|336
+Greece|Greece|337
+Grenada|Grenada|338
+Guatemala|Guatemala|339
+Guinea-Bissau|Guinea-Bissau|340
+Guinea|Guinea|341
+Guyana|Guyana|342
+Haiti|Haiti|343
+Honduras|Honduras|344
+Hungary|Hungary|345
+Iceland|Iceland|346
+India|India|347
+Indonesia|Indonesia|348
+Iran|Iran|349
+Iraq|Iraq|350
+Ireland|Ireland|351
+Israel|Israel|352
+Italy|Italy|353
+Jamaica|Jamaica|354
+Japan|Japan|355
+Jordan|Jordan|356
+Kazakhstan|Kazakhstan|357
+Kenya|Kenya|358
+Kiribati|Kiribati|359
+Korea, North|North Korea|360
+Korea, South|South Korea|361
+Korea|Korea|362
+Kuwait|Kuwait|363
+Kyrgyzstan|Kyrgyzstan|364
+Laos|Laos|365
+Latvia|Latvia|366
+Lebanon|Lebanon|367
+Lesotho|Lesotho|368
+Liberia|Liberia|369
+Libya|Libya|370
+Liechtenstein|Liechtenstein|371
+Lithuania|Lithuania|372
+Luxembourg|Luxembourg|373
+Madagascar|Madagascar|374
+Malawi|Malawi|375
+Malaysia|Malaysia|376
+Maldives|Maldives|377
+Mali|Mali|378
+Malta|Malta|379
+Marshall Islands|the Marshall Islands|380
+Mauritania|Mauritania|381
+Mauritius|Mauritius|382
+Mexico|Mexico|383
+Moldova|Moldova|384
+Monaco|Monaco|385
+Mongolia|Mongolia|386
+Montenegro|Montenegro|387
+Morocco|Morocco|388
+Mozambique|Mozambique|389
+Myanmar|Myanmar|390
+Namibia|Namibia|391
+Nauru|Nauru|392
+Nepal|Nepal|393
+Netherlands|the Netherlands|394
+New Zealand (Aotearoa)|New Zealand (Aotearoa)|395
+Nicaragua|Nicaragua|396
+Nigeria|Nigeria|397
+Niger|Niger|398
+Niue|Niue|399
+Norway|Norway|400
+Oman|Oman|401
+Pakistan|Pakistan|402
+Palau|Palau|403
+Palestine|Palestine|404
+Panama|Panama|405
+Papua New Guinea|Papua New Guinea|406
+Paraguay|Paraguay|407
+People's Republic of China|the People's Republic of China|408
+Peru|Peru|409
+Philippines|the Philippines|410
+Poland|Poland|411
+Portugal|Portugal|412
+Puerto Rico|Puerto Rico|413
+Qatar|Qatar|414
+Republic of China|the Republic of China|415
+Republic of Cyprus|the Republic of Cyprus|416
+Republic of Macedonia|the Republic of Macedonia|417
+Republic of the Congo|the Republic of the Congo|418
+Romania|Romania|419
+Russia|Russia|420
+Rwanda|Rwanda|421
+Saint Kitts and Nevis|Saint Kitts and Nevis|422
+Saint Lucia|Saint Lucia|423
+Saint Vincent and the Grenadines|Saint Vincent and the Grenadines|424
+Samoa|Samoa|425
+San Marino|San Marino|426
+Saudi Arabia|Saudi Arabia|427
+Senegal|Senegal|428
+Serbia|Serbia|429
+Seychelles|Seychelles|430
+Sierra Leone|Sierra Leone|431
+Singapore|Singapore|432
+Slovenia|Slovenia|433
+Solomon Islands|Solomon Islands|434
+Somalia|Somalia|435
+South Africa|South Africa|436
+South Sudan|South Sudan|437
+Spain|Spain|438
+Sri Lanka|Sri Lanka|439
+Sudan|Sudan|440
+Suriname|Suriname|441
+Swaziland|Swaziland|442
+Sweden|Sweden|443
+Switzerland|Switzerland|444
+Syria|Syria|445
+São Tomé and Príncipe|São Tomé and Príncipe|446
+Tajikistan|Tajikistan|447
+Tanzania|Tanzania|448
+Thailand|Thailand|449
+Tibet|Tibet|450
+Togo|Togo|451
+Tonga|Tonga|452
+Trinidad and Tobago|Trinidad and Tobago|453
+Tunisia|Tunisia|454
+Turkey|Turkey|455
+Turkmenistan|Turkmenistan|456
+Tuvalu|Tuvalu|457
+Uganda|Uganda|458
+Ukraine|Ukraine|459
+United Arab Emirates|United Arab Emirates|460
+United Kingdom|the United Kingdom|461
+United States|the United States|462
+Uruguay|Uruguay|463
+Uzbekistan|Uzbekistan|464
+Vanuatu|Vanuatu|465
+Vatican City|Vatican City|466
+Venezuela|Venezuela|467
+Vietnam|Vietnam|468
+Yemen|Yemen|469
 Zambia|Zambia|470
 Zimbabwe|Zimbabwe|471
+----||268
+Reddit|Reddit|472
+YouTube|YouTube|473
