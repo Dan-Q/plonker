@@ -40,7 +40,7 @@
                   <%= index + 1 %>
                 </span>
                 <span class="content">
-                  <a href="http://<%= @predomain %>.<%= domain %>/"><%= data[:teaser].gsub('{{fullname}}', @name.join(' ')) %></a>
+                  <a href="http://<%= @predomain %>.<%= domain %>/<%= params['splat'][0] %>"><%= data[:teaser].gsub('{{fullname}}', @name.join(' ')) %></a>
                   <span class="agency"><%= data[:agency] %></span>
                 </span>
               </li>

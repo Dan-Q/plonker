@@ -14,5 +14,16 @@
     <main>
       <%= yield %>
     </main>
+    <footer>
+      <ul>
+        <li>
+          &copy; <a href="https://danq.me/">Dan Q</a> 2017
+          <%= (year = Time.now.year) > 2017 ? " &ndash; #{year}" : '' %>
+        </li>
+        <li><a href="/faq">Frequently Asked Questions</a></li>
+        <li>
+          <a href="https://github.com/Dan-Q/plonker">Open source</a> under the <a href="https://github.com/Dan-Q/plonker/blob/master/LICENSE">MIT license</a>
+        </li>
+    </footer>
   </body>
 </html>

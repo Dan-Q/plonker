@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background: #DBE3F3;
+  margin: 0;
 }
 
 .requires-js {
@@ -15,7 +16,7 @@ body.js .requires-no-js {
   display: none;
 }
 
-header {
+header, footer {
   background: #000;
   color: #fff;
 }
@@ -24,6 +25,31 @@ header h1, main {
   max-width: 980px;
   margin: 0 auto;
   padding: 0.4em 1em;
+}
+
+footer {
+  padding: 0.5em 1em;
+  font-size: 80%;
+  color: #777;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-around;
+}
+
+footer ul li {
+  text-align: center;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: #fff;
 }
 
 main {
@@ -41,6 +67,8 @@ a:hover {
   color: #9C0000;
 }
 
+/* FAQ */
+
 .question-index {
   column-width: 450px;
   margin: 1.2em 0;
@@ -57,6 +85,8 @@ a:hover {
 .question {
   border-top: 1px solid #2A304A;
 }
+
+/* Setup */
 
 #setup {
   display: flex;
@@ -95,4 +125,28 @@ a:hover {
 #setup #result {
   text-align: center;
   font-size: 120%;
+  margin: 0.5em 2em;
+  padding: 0.5em 2em;
+}
+
+#setup .field {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.6em;
+}
+
+#setup .field label {
+  width: 8em;
+  margin-right: 0.5em;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+#setup .field small {
+  margin-left: 9.6em;
+  color: #777;
+}
+
+#setup input, #setup select {
+  font-size: 100%;
 }
