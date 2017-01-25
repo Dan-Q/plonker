@@ -86,6 +86,10 @@ a:hover {
   border-top: 1px solid #2A304A;
 }
 
+.bitcoin {
+  font-family: monospace;
+}
+
 /* Setup */
 
 #setup {
